@@ -1,0 +1,277 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <link href="./output.css" rel="stylesheet">
+    <title>Tailwindcss</title>
+</head>
+<body>
+    <div class="bg-violet-200 h-10 w-full border-2 border-violet-600 rounded-md my-10 p-4 flex justify-center items-center ">
+    <h1 class="text-center font-mono font-extrabold text-[20px]">Amosdev !</h1>
+    </div>
+    <!-- <div class="flex justify-end space-x-6">
+        <div>
+    <h2 class="bg-blue-500 text-white p-4 rounded-lg text-center ">This's a two title</h2>
+</div> -->
+<div class="flex flex-col items-center justify-center space-y-6 mt-2">
+    <div class="h-16 w-16 rounded-full bg-blue-500"></div>
+    <div class="h-16 w-16 rounded-full bg-orange-500"></div>
+    <div class="h-16 w-16 rounded-full bg-green-500"></div>
+</div>
+<div class="grid grid-cols-3 mt-6 bg-cyan-200  rounded-2xl ">
+    <div class="h-16 w-16 rounded-full bg-[#f0f0f0] flex justify-center items-center"> 01</div>
+    <div class="h-16 w-16 rounded-full bg-red-500 flex justify-center items-center">02</div>
+    <div class="h-16 w-16 rounded-full bg-[#111] flex justify-center items-center text-white">03</div>
+</div>
+
+<!-- Media Queries -->
+ <div class="max-sm:bg-amber-500 md:bg-black p-6 mt-2">
+    <p class="text-white mt-6">J'apprends la responsive sur tailwind css ,ca va aller très vite ! </p>
+ </div>
+
+ <!-- Exercice tailwind css -->
+<div class="mx-auto">
+ <P class="my-4 border-b-2 font-bold text-black"> EXERCICE 1</P>
+</div>
+<div class="mx-auto max-w-md overflow-hidden rounded-xl shadow-md bg-white md:max-w-2xl m-10">
+    <div class="md:flex">
+        <div class="md:shrink-0">
+            <img 
+            class="h-48 w-full object-cover md:h-full md:w-50"
+            src="Assets/mariage1.jpg"
+             alt="Cake">
+        </div>
+        <div class="p-10">
+            <div class="text-3xl tracking-wide font-semibold text-indigo-700">Company retreats</div>
+            <a
+            class="text-black mt-1 block font-medium leading-tight uppercase hover:underline"
+            href="">Incredible accommodation for your team
+        </a>
+        <p class="mt-2.5 text-gray-500">
+            Looking to take your team away on a retreat to enjoy awesome food and take in some sunshine? We have a list of places to do just that.
+        </p>
+
+        </div>
+
+    </div>
+
+</div>
+<div class="mx-auto my-4 border-b-2 mt-4 mb-4 font-bold text-black">
+    <p>EXERCICE 2</p>
+</div>
+<div class="">
+    <div class="bg-green-100 p-10 ">
+        <div class="md:flex mx-auto max-w-md rounded-xl overflow-hidden shadow-xl md:max-w-lg">
+            <div class="shrink-0">
+                <img
+                class="h-40 w-full object-cover md:h-full md:w-40"
+                src="Assets/mariage5.jpg"
+                 alt="Cake wedding">
+            </div>
+            <div class="bg-white p-8 ">
+                <h2 class="text-black font-semibold tracking-wide uppercase">Cake of wedding</h2>
+                <p class="text-gray-400 font-medium pb-2"> The cake had been cooking for evently about weeding.</p>
+                <div class="flex justify-between items-center">
+                    <p class="text-black font-medium ">50$</p>
+                    <p class="text-blue-400 ">20% off</p>
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</div>
+
+<div class="mx-auto my-4 border-b-2 mt-4 mb-4 font-bold text-black">
+    <p>EXERCICE 3</p>
+</div>
+<div class="bg-white p-10">
+    <div class="mx-auto mx-w-md overflow-hidden rounded-3xl shadow-md md:flex md:max-w-xl ">
+        <div class="shrink-0">
+            <img
+            class="h-48 w-full object-cover md:h-full md:w-48" 
+            src="Assets/chocolat3.jpg"
+             alt="Cake">
+            </div>
+             <div class="bg-gray-100 p-8">
+                <h1 class="text-2xl font-bold text-black mb-2">Cosmic cake Headphones</h1>
+                <p class="text-gray-500 mb-4">Experience music live never before with our state-or-the-art cake.Immerse yourself in crystal clear sound and unparallele confort
+                </p>
+                <div class="flex justify-between">
+                    <p class="text-blue-500 font-semibold">$299.99</p>
+                    <div class="flex justify-end items-center mb-8 max-sm:flex-col">
+                    <svg
+                    class="fill-amber-300"
+                     xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="#1f1f1f">
+                     <path d="m354-287 126-76 126 77-33-144 111-96-146-13-58-136-58 135-146 13 111 97-33 143ZM233-120l65-281L80-590l288-25 112-265 112 265 288 25-218 189 65 281-247-149-247 149Zm247-350Z"/>
+                    </svg>
+                    <p>4.9 (120 reviews)</p>
+                    </div>
+                </div>
+                <div class="bg-blue-600 rounded-xl p-4  text-center">
+                <button class="text-white font-normal">Add to Cart</button>
+             </div>
+            </div>
+        </div>
+
+    </div>
+<div class="mx-auto my-4 border-b-2 mt-4 mb-4 font-bold text-black">
+    <p>EXERCICE 4</p>
+</div>
+    <div class="bb-white p-10">
+        <div class="mx-auto mx-w-md overflow-hidden rounded-2xl shadow-2xl p-5 tracking-wide md:max-w-2xl md:flex">
+            <div class="shrink-0">
+                <img 
+                class="rounded-2xl hover:transition-all h-48 w-full md:h-full md:w-48"
+                src="Assets/pexels-cristiano-de-luca-137932148-10497369.jpg" alt="Air Nike">
+            </div>
+            <div class="text-sm  text-black my-5 pl-5">
+                <h2>AIR NIKE SUPER X 2500-RED</h2>
+                <div class="flex justify-start items-center">
+                    <p class="text-black pr-4 font-bold text-2xl ">$449</p>
+                    <p class="line-through text-gray-300">$699</p>
+                </div>
+                <div class="bg-black p-4 rounded-2xl  mt-5 w-full">
+                    <button class="text-white flex justify-center items-center cursor-pointer">
+                        <svg
+                        class="fill-white text-center" xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="#1f1f1f">
+                        <path d="M223.5-103.5Q200-127 200-160t23.5-56.5Q247-240 280-240t56.5 23.5Q360-193 360-160t-23.5 56.5Q313-80 280-80t-56.5-23.5Zm400 0Q600-127 600-160t23.5-56.5Q647-240 680-240t56.5 23.5Q760-193 760-160t-23.5 56.5Q713-80 680-80t-56.5-23.5ZM246-720l96 200h280l110-200H246Zm-38-80h590q23 0 35 20.5t1 41.5L692-482q-11 20-29.5 31T622-440H324l-44 80h480v80H280q-45 0-68-39.5t-2-78.5l54-98-144-304H40v-80h130l38 80Zm134 280h280-280Z"/></svg>
+                       <p class="pl-3 text-center">Add to Cart</p>
+                    </button>
+                </div>
+            </div>
+
+        </div>
+ <div class="mx-auto my-4 border-b-2 mt-4 mb-4 font-bold text-black">
+    <p>EXERCICE 5</p>
+</div>
+<div class="mx-auto mx-w-md overflow-hidden bg-white shadow-2xl rounded-2xl md:mx-w-xl md:flex md:p-8 md:justify-center md:items-center"> 
+        <div class="shrink-0 flex justify-center items-center my-2">
+            <img
+            class="h-60 w-full m-4 object-cover shadow-md rounded-2xl md:bg-gray-200 md:h-full md:w-100"
+            src="Assets/kukurin.webp" alt="">
+             <!-- <div class="grid-cols-1 p-4 md:flex justify-center items-center">
+            <svg
+            class="md:h-32 md:w-32"
+            xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="#1f1f1f"><path d="M40-120v-80h880v80H40Zm120-120q-33 0-56.5-23.5T80-320v-440q0-33 23.5-56.5T160-840h640q33 0 56.5 23.5T880-760v440q0 33-23.5 56.5T800-240H160Zm0-80h640v-440H160v440Zm0 0v-440 440Zm280-60h80v-167l64 63 56-56-160-160-160 160 56 57 64-64v167Z"/>
+            </svg>
+            <svg 
+            class="md:h-32 md:w-32"
+            xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="#1f1f1f"><path d="m480-120-58-52q-101-91-167-157T150-447.5Q111-500 95.5-544T80-634q0-94 63-157t157-63q52 0 99 22t81 62q34-40 81-62t99-22q94 0 157 63t63 157q0 46-15.5 90T810-447.5Q771-395 705-329T538-172l-58 52Zm0-108q96-86 158-147.5t98-107q36-45.5 50-81t14-70.5q0-60-40-100t-100-40q-47 0-87 26.5T518-680h-76q-15-41-55-67.5T300-774q-60 0-100 40t-40 100q0 35 14 70.5t50 81q36 45.5 98 107T480-228Zm0-273Z"/>
+            </svg>
+            </div> -->
+        </div>
+        <div class="lg:grid-cols-1">
+<div class="md:shadow-md rounded-2xl md:m-0 md:bg-gray-200 lg:my-0">
+         <div > 
+            <div class="px-4 py-2 md:px-6 md:py-6">
+                <h2 class="font-bold md:font-bold md:text-xl">Dualtron Ultra 1 60V 32AH</h2>
+            </div>
+            <div class="flex justify-start max-sm:flex-col md:flex">
+                <p class="px-4 text-gray-500 mb-4">€2,560,00</p>
+                <div class="flex px-4">
+                <svg 
+            class="fill-amber-400"
+            xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="#1f1f1f"><path d="m354-287 126-76 126 77-33-144 111-96-146-13-58-136-58 135-146 13 111 97-33 143ZM233-120l65-281L80-590l288-25 112-265 112 265 288 25-218 189 65 281-247-149-247 149Zm247-350Z"/>
+            </svg>
+            <svg 
+            class="fill-amber-400"
+            xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="#1f1f1f"><path d="m354-287 126-76 126 77-33-144 111-96-146-13-58-136-58 135-146 13 111 97-33 143ZM233-120l65-281L80-590l288-25 112-265 112 265 288 25-218 189 65 281-247-149-247 149Zm247-350Z"/>
+            </svg>
+            <svg 
+            class="fill-amber-400"
+            xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="#1f1f1f"><path d="m354-287 126-76 126 77-33-144 111-96-146-13-58-136-58 135-146 13 111 97-33 143ZM233-120l65-281L80-590l288-25 112-265 112 265 288 25-218 189 65 281-247-149-247 149Zm247-350Z"/>
+            </svg>
+            <svg 
+            class="fill-amber-400"
+            xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="#1f1f1f"><path d="m354-287 126-76 126 77-33-144 111-96-146-13-58-136-58 135-146 13 111 97-33 143ZM233-120l65-281L80-590l288-25 112-265 112 265 288 25-218 189 65 281-247-149-247 149Zm247-350Z"/>
+            </svg>
+            <svg 
+            class="fill-amber-400"
+            xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="#1f1f1f"><path d="m354-287 126-76 126 77-33-144 111-96-146-13-58-136-58 135-146 13 111 97-33 143ZM233-120l65-281L80-590l288-25 112-265 112 265 288 25-218 189 65 281-247-149-247 149Zm247-350Z"/>
+            </svg>
+            <p>(25)</p>
+            </div>
+
+            </div>
+        </div>
+        <div class="flex justify-between px-4 pt-4 mb-6 max-sm:flex-col md:justify-between md:items-center">
+            <p class="text-gray-500">Shop Now , Pay later</p>
+            <p class="font-bold">Klarna.</p>
+
+        </div>
+        <div class="px-8 mb-4 flex justify-center items-center max-sm:flex-col md:flex md:justify-between md:items-center">
+            <button class="bg-red-500 p-4 my-2 mx-4 text-white rounded-md max-sm:w-full">ADD TO BAG</button>
+            <button class="border px-8 py-4 rounded-md max-sm:w-full">
+                <div class="flex justify-center items-center">
+                <img width="20" height="20" src="https://img.icons8.com/ios-filled/50/mac-os.png" alt="mac-os"/>
+               <p class="font-bold">PAY</p>
+                </div>
+            </button>
+        </div> 
+        </div>
+
+        <div class="flex justify-between items-center px-8 py-4 max-sm:flex-col lg:my-0 lg:py-2.5">
+            <p class="font-bold">REVIEW</p>
+            <p class="text-gray-400">View All</p>
+        </div>
+        <div class="px-8 shadow-md my-8 mx-4 rounded-2xl lg:rounded-2xl lg:my-0">
+            <div class="flex justify-between items-center p-2">
+                <div class="flex">
+                  <svg 
+            class="fill-amber-400"
+            xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="#1f1f1f"><path d="m354-287 126-76 126 77-33-144 111-96-146-13-58-136-58 135-146 13 111 97-33 143ZM233-120l65-281L80-590l288-25 112-265 112 265 288 25-218 189 65 281-247-149-247 149Zm247-350Z"/>
+            </svg>
+                  <svg 
+            class="fill-amber-400"
+            xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="#1f1f1f"><path d="m354-287 126-76 126 77-33-144 111-96-146-13-58-136-58 135-146 13 111 97-33 143ZM233-120l65-281L80-590l288-25 112-265 112 265 288 25-218 189 65 281-247-149-247 149Zm247-350Z"/>
+            </svg>
+                  <svg 
+            class="fill-amber-400"
+            xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="#1f1f1f"><path d="m354-287 126-76 126 77-33-144 111-96-146-13-58-136-58 135-146 13 111 97-33 143ZM233-120l65-281L80-590l288-25 112-265 112 265 288 25-218 189 65 281-247-149-247 149Zm247-350Z"/>
+            </svg>
+                  <svg 
+            class="fill-amber-400"
+            xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="#1f1f1f"><path d="m354-287 126-76 126 77-33-144 111-96-146-13-58-136-58 135-146 13 111 97-33 143ZM233-120l65-281L80-590l288-25 112-265 112 265 288 25-218 189 65 281-247-149-247 149Zm247-350Z"/>
+            </svg>
+                  <svg 
+            class="fill-amber-400"
+            xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="#1f1f1f"><path d="m354-287 126-76 126 77-33-144 111-96-146-13-58-136-58 135-146 13 111 97-33 143ZM233-120l65-281L80-590l288-25 112-265 112 265 288 25-218 189 65 281-247-149-247 149Zm247-350Z"/>
+            </svg>
+            </div>
+            <p>Anonymous</p>
+            </div>
+            <div class="px-4 pb-8 lg:pb-4">
+                <p class="font-bold">AMAZING MACHINE</p>
+            </div>
+           
+
+        </div>
+        </div>
+</div>
+ </div>
+  <div class="mx-auto border-b-2 my-8 font-bold text-black">
+    <p>EXERCICE 6</p>
+</div>
+
+<div class="lg:flex lg:gap-3 bg-[#E6E6E6] md:flex md:gap-2">
+    <!-- écran 1  -->
+     <div class="flex">
+        <svg  xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="#1f1f1f"><path d="M560-240 320-480l240-240 56 56-184 184 184 184-56 56Z"/></svg>
+        <img class="h-[48] w-[48] " src="Assets/1.webp" alt="Trotinette face">
+        <svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="#1f1f1f"><path d="M223.5-103.5Q200-127 200-160t23.5-56.5Q247-240 280-240t56.5 23.5Q360-193 360-160t-23.5 56.5Q313-80 280-80t-56.5-23.5Zm400 0Q600-127 600-160t23.5-56.5Q647-240 680-240t56.5 23.5Q760-193 760-160t-23.5 56.5Q713-80 680-80t-56.5-23.5ZM246-720l96 200h280l110-200H246Zm-38-80h590q23 0 35 20.5t1 41.5L692-482q-11 20-29.5 31T622-440H324l-44 80h480v80H280q-45 0-68-39.5t-2-78.5l54-98-144-304H40v-80h130l38 80Zm134 280h280-280Z"/></svg>
+    </div>
+
+</div>
+
+
+
+
+
+</div>
+</div>
+</body>
+</html>

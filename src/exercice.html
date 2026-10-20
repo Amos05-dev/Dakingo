@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <link href="./output.css" rel="stylesheet">
+    <title>Exercice</title>
+</head>
+<body class="bg-gray-300">
+  <div class="flex justify-between items-center my-2 max-sm:grid max-sm:gap-12 max-sm:mb-2 ">
+
+     <!-- 1er bloc --> 
+          <div class="mx-6 ml-4 w-[300] h-full border-box -px-1 bg-white rounded-2xl shadow-2xl p-4  mt-20 max-sm:h[450]">
+                 <div class="flex justify-between">
+              <svg
+                class="w-6 h-6 shrink-0"
+                xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="#1f1f1f"><path d="M560-240 320-480l240-240 56 56-184 184 184 184-56 56Z"/>
+              </svg>
+                <svg
+                class="w-6 h-6 shrink-0"
+                xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="#1f1f1f"><path d="M223.5-103.5Q200-127 200-160t23.5-56.5Q247-240 280-240t56.5 23.5Q360-193 360-160t-23.5 56.5Q313-80 280-80t-56.5-23.5Zm400 0Q600-127 600-160t23.5-56.5Q647-240 680-240t56.5 23.5Q760-193 760-160t-23.5 56.5Q713-80 680-80t-56.5-23.5ZM246-720l96 200h280l110-200H246Zm-38-80h590q23 0 35 20.5t1 41.5L692-482q-11 20-29.5 31T622-440H324l-44 80h480v80H280q-45 0-68-39.5t-2-78.5l54-98-144-304H40v-80h130l38 80Zm134 280h280-280Z"/>
+            </svg>
+          </div>
+          <div class="mx-auto">
+            <img src="Assets/1.webp" alt="trotinette">
+          </div>
+             <div class=" bg-gray-100 flex justify-between items-center -mx-4 rounded-tl-4xl px-4 py-12 max-sm:-py-12">
+                <div class="">
+                    <p class="font-bold text-2xl text-black">Colors</p>
+                    <input
+                    class=" gap-4 appearance-none w-6 h-6 border-2 border-gray-300 rounded-2xl 
+           checked:bg-gray-400 checked:border-gray-400
+           checked:ring-2 checked:ring-gray-400 checked:ring-offset-2
+           transition-all"
+                    type="radio">
+                    <input 
+                    class="appearance-none w-6 h-6 border-2 border-gray-300 rounded-2xl 
+           checked:bg-gray-400 checked:border-gray-400
+           checked:ring-2 checked:ring-gray-400 checked:ring-offset-2
+           transition-all"
+                    type="radio">
+                </div>
+                <div class="">
+                    <p class="font-bold text-2xl text-black">Quantité</p>
+        <div class="flex items-center gap-3 bg-gray-100 rounded-full p-1.5 w-fit">
+
+    <!-- Bouton MOINS -->
+  <button type="button" onclick="this.nextElementSibling.stepDown()" 
+    class="w-8 h-8 bg-white rounded-full flex items-center justify-center shadow-sm hover:bg-black hover:text-white transition">
+    <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M20 12H4"/></svg>
+  </button> 
+
+  <!-- Valeur -->
+   <input type="number" value="1" min="1" max="99" 
+    class="w-10 text-center bg-transparent font-semibold outline-none [appearance:textfield] [&::-webkit-outer-spin-button]:appearance-none [&::-webkit-inner-spin-button]:appearance-none" />
+
+ <!-- Bouton PLUS  -->
+   <button type="button" onclick="this.previousElementSibling.stepUp()" 
+    class="w-8 h-8 bg-white rounded-full flex items-center justify-center shadow-sm hover:bg-black hover:text-white transition">
+    <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 4v16m8-8H4"/></svg>
+  </button>
+
+</div>
+                 </div> 
+                
+
+                </div>
+             <div class="bg-[#FBC82F] -mt-6 -mx-4 -mb-4 rounded-tl-4xl rounded-bl-2xl rounded-br-2xl ">
+             <div class="flex justify-between items-center p-4 max-sm:grid max-sm:-mb-24">
+              <p class="text-white p-4 font-bold text-xl">$1699</p>
+              <button class="text-black p-2 font-black rounded-2xl shadow-md bg-[#FFFFFF]">Add To Card</button>
+             </div>
+             </div> 
+          </div>
+          
+
+         <!-- 2eme Bloc -->
+         <div class=" mx-6 ml-4 w-[300] h-full border-box -px-1 bg-white rounded-2xl shadow-2xl p-4 -mt-2 max-sm:mt-4 ">
+          <div class="flex justify-between">
+              <svg
+                class="w-6 h-6 shrink-0"
+                xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="#1f1f1f"><path d="M560-240 320-480l240-240 56 56-184 184 184 184-56 56Z"/>
+              </svg>
+                <svg
+                class="w-6 h-6 shrink-0"
+                xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="#1f1f1f"><path d="M223.5-103.5Q200-127 200-160t23.5-56.5Q247-240 280-240t56.5 23.5Q360-193 360-160t-23.5 56.5Q313-80 280-80t-56.5-23.5Zm400 0Q600-127 600-160t23.5-56.5Q647-240 680-240t56.5 23.5Q760-193 760-160t-23.5 56.5Q713-80 680-80t-56.5-23.5ZM246-720l96 200h280l110-200H246Zm-38-80h590q23 0 35 20.5t1 41.5L692-482q-11 20-29.5 31T622-440H324l-44 80h480v80H280q-45 0-68-39.5t-2-78.5l54-98-144-304H40v-80h130l38 80Zm134 280h280-280Z"/>
+            </svg>
+            
+          </div>
+          <div class="flex max-sm:grid ">
+            <div class="grid gap-4 mx-4 p-4">
+              <button class="p-4 rounded-2xl shadow-md hover:bg-yellow-400 cursor-auto transition-all duration-75">
+                <svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="#1f1f1f"><path d="M784-120 532-372q-30 24-69 38t-83 14q-109 0-184.5-75.5T120-580q0-109 75.5-184.5T380-840q109 0 184.5 75.5T640-580q0 44-14 83t-38 69l252 252-56 56ZM380-400q75 0 127.5-52.5T560-580q0-75-52.5-127.5T380-760q-75 0-127.5 52.5T200-580q0 75 52.5 127.5T380-400Z"/>
+                </svg>
+                  <p>100</p>
+                  <p>KG</p>
+              </button>
+              <button class="p-4 rounded-2xl shadow-md hover:bg-yellow-400 cursor-auto transition-all duration-75">
+                <svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="#1f1f1f"><path d="m424-312 282-282-56-56-226 226-114-114-56 56 170 170ZM200-120q-33 0-56.5-23.5T120-200v-560q0-33 23.5-56.5T200-840h560q33 0 56.5 23.5T840-760v560q0 33-23.5 56.5T760-120H200Zm0-80h560v-560H200v560Zm0-560v560-560Z"/>
+                </svg>
+                  <p>250</p>
+                  <p>W</p>
+              </button>
+              <button class="p-4 rounded-2xl shadow-md hover:bg-yellow-400 cursor-auto transition-all duration-75">
+              <svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="#1f1f1f"><path d="M480-470ZM260-160q-41 0-75-21.5T134-240H0v-240q0-33 23.5-56.5T80-560h40l60-167q9-24 29.5-38.5T256-780h298q21 0 39.5 10.5T623-741l34 56-55 64-47-79H256l-80 220H80v160h120v20q0 25 17.5 42.5T260-240q25 0 42.5-17.5T320-300v-20h320v20q0 25 17.5 42.5T700-240q25 0 42.5-17.5T760-300v-20h120v-166l-146-13 64-74 89 7q33 3 53 25t20 55v246H826q-17 37-51 58.5T700-160q-41 0-75-21.5T574-240H386q-17 37-51 58.5T260-160Zm140-220 42-42-27-28h198l249-290-45-40-231 270H415l27-28-42-42-100 100 100 100Z"/>
+              </svg>
+                  <p>25</p>
+                  <p>KM</p>
+              </button>
+            </div>
+            <div>
+              <img
+              class="object-cover"
+              src="Assets/2.webp" alt="trotinette">
+            </div>
+
+          </div>
+          
+              <div class="bg-gray-100 p-6 rounded-bl-2xl rounded-br-2xl -mx-4 -mb-4 max-sm:-mb-10"> 
+              <p class="text-center text-amber-300 text-3xl">360°</p> 
+
+              <div>
+                <button class="bg-[#3CB7E1] p-4 rounded-2xl mt-4">
+              <svg 
+              class="fill-white"
+              xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="#1f1f1f"><path d="M80-200v-80h800v80H80Zm40-120v-40q0-128 78.5-226T400-710v-10q0-33 23.5-56.5T480-800q33 0 56.5 23.5T560-720v10q124 26 202 124t78 226v40H120Zm82-80h556q-14-104-93-172t-185-68q-106 0-184.5 68T202-400Zm278 0Z"/>
+              </svg>
+              </button>
+             </div>
+             </div>
+          </div>
+         
+         <!-- 3eme bloc -->
+
+         <div class="mx-6 ml-4 w-[300] h-full border-box  -px-1 bg-white rounded-2xl shadow-2xl p-4 mt-20 max-sm:-mt-4">
+              <div class="flex justify-between">
+              <svg
+                class="w-6 h-6 shrink-0"
+                xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="#1f1f1f"><path d="M560-240 320-480l240-240 56 56-184 184 184 184-56 56Z"/>
+              </svg>
+                <svg
+                class="w-6 h-6 shrink-0"
+                xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="#1f1f1f"><path d="M223.5-103.5Q200-127 200-160t23.5-56.5Q247-240 280-240t56.5 23.5Q360-193 360-160t-23.5 56.5Q313-80 280-80t-56.5-23.5Zm400 0Q600-127 600-160t23.5-56.5Q647-240 680-240t56.5 23.5Q760-193 760-160t-23.5 56.5Q713-80 680-80t-56.5-23.5ZM246-720l96 200h280l110-200H246Zm-38-80h590q23 0 35 20.5t1 41.5L692-482q-11 20-29.5 31T622-440H324l-44 80h480v80H280q-45 0-68-39.5t-2-78.5l54-98-144-304H40v-80h130l38 80Zm134 280h280-280Z"/>
+            </svg>
+          </div>
+          <div>
+            <img src="Assets/3.webp" alt="">
+          </div>
+          
+            <div class=" bg-gray-100 pb-2 py-8  px-4 -mx-4 -mb-4 rounded-tl-4xl rounded-bl-2xl rounded-br-2xl max-sm:-mb-24">
+              <div class="flex justify-between items-center">
+                    <h1 class="font-extrabold text-xl p-2">Control Panel</h1>
+                          <button class="bg-[#3CB7E1] p-4 rounded-2xl mt-4">
+             <svg 
+             class="fill-white"
+             xmlns="http://www.w3.org/2000/svg" height="20px" viewBox="0 -960 960 960" width="20px" fill="#1f1f1f"><path d="M440-183v-274L200-596v274l240 139Zm80 0 240-139v-274L520-457v274Zm-80 92L160-252q-19-11-29.5-29T120-321v-318q0-22 10.5-40t29.5-29l280-161q19-11 40-11t40 11l280 161q19 11 29.5 29t10.5 40v318q0 22-10.5 40T800-252L520-91q-19 11-40 11t-40-11Zm200-528 77-44-237-137-78 45 238 136Zm-160 93 78-45-237-137-78 45 237 137Z"/>
+            </svg>
+                    </button>
+              </div>
+              <div class="overflow-hidden">
+                    <p class="text-xl text-gray-400 font-bold p-2">The Control Panel is located the <br> speedmote speed battery indicator and <br> a choice of four driving modes.</p>
+              </div>
+                  
+      
+         </div>
+
+    </div>
+
+  </div>
+  </div>-
+    
+   
+</body>
+</html>
