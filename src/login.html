@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <link href="./output.css" rel="stylesheet">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+    <title>Poulls</title>
+</head>
+<body class="bg-[#718665]">
+    <div class="mx-auto m-4 p-4 sm:p-2">
+        <div class="bg-[#ECE9E4] rounded-3xl rou p-8 -mb-4  flex justify-between items-center max-sm:grid">
+            <div class="pl-6 sm:pl-4">
+                <h1 class="text-[#476B2C] font-bold text-2xl">Poulls</h1>
+            </div>
+            <div class="flex justify-center items-center gap-4 space-x-4 font-semibold max-sm:grid">
+                <div class="">
+                    <a href="dakingo.html">Home</a>
+                </div>
+                <div>
+                    <a href="#">Services </a>
+                </div>
+                <div>
+                    <a href="#">Availability </a>
+                </div>
+                <div>
+                    <a href="#">Contact </a>
+                </div>
+            </div>
+            <div class="flex justify-end items-center gap-4">
+             <div >
+                  <svg
+                  class="max-sm:hidden block"
+                  xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="#1f1f1f"><path d="M784-120 532-372q-30 24-69 38t-83 14q-109 0-184.5-75.5T120-580q0-109 75.5-184.5T380-840q109 0 184.5 75.5T640-580q0 44-14 83t-38 69l252 252-56 56ZM380-400q75 0 127.5-52.5T560-580q0-75-52.5-127.5T380-760q-75 0-127.5 52.5T200-580q0 75 52.5 127.5T380-400Z"/>
+                    </svg>
+                </div>
+            <div class="bg-[#41772A] p-2 rounded-3xl mr-6 hover:shadow-xl max-sm:p-1.5 max-sm:mt-6">
+                <a href="#connexion"><button class="text-white text-xs font-bold px-4 flex justify-center items-center  gap-2 cursor-pointer" >
+                    <svg class="fill-white" xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="#1f1f1f"><path d="M240-80q-33 0-56.5-23.5T160-160v-480q0-33 23.5-56.5T240-720h80q0-66 47-113t113-47q66 0 113 47t47 113h80q33 0 56.5 23.5T800-640v480q0 33-23.5 56.5T720-80H240Zm0-80h480v-480h-80v80q0 17-11.5 28.5T600-520q-17 0-28.5-11.5T560-560v-80H400v80q0 17-11.5 28.5T360-520q-17 0-28.5-11.5T320-560v-80h-80v480Zm160-560h160q0-33-23.5-56.5T480-800q-33 0-56.5 23.5T400-720ZM240-160v-480 480Z"/>
+                </svg>
+                    Book Now</button></a>
+                    <!-- <a
+                    class="text-white text-xs font-bold px-4 flex justify-center items-center  gap-2 cursor-pointer"
+                    href="login.html">Login</a> -->
+            </div>
+            </div>
+        </div>
+        <!-- la partie du formulaire -->
+         <div class="h-screen -mt-6 bg-[url('Assets/background.jpg')]  bg-cover bg-center flex flex-col ">
+            <div id="connexion" class="max-w-md shadow-2xl rounded-3xl w-full mx-auto my-20 backdrop-blur-sm">
+                <div class="text-3xl font-bold text-center text-white py-8">
+                    <p>Connexion</p>
+                </div>
+                <form action="dakingo.html" method="get" class="flex flex-col gap-4">
+                    <div class="flex flex-col gap-1 px-6 py-2">
+                        <label for="email" class="font-bold text-white">Email :</label>
+                        <input type="text" name="email" id="email" required placeholder="Email"
+                        class="border border-white p-2 rounded-2xl text-white outline-none "
+                        >
+                    </div>
+                    <div class="flex flex-col gap-1 px-6 pb-4">
+                        <label for="password" class="font-bold text-white">Password :</label>
+                        <input type="password" name="password" id="password" required
+                        class="border border-white p-2 rounded-2xl text-white outline-none "
+                        >
+                    </div>
+                    <div class="flex flex-col gap-1 px-6 pb-4">
+                        <p class="text-white">Forget your password ? <a href="#" class="text-blue-800">Click here</a></p>
+                    </div>
+                    <div class="p-4 bg-[#ECF4DD] shadow-2xl rounded-2xl m-4 text-center">
+                      <a href="dakingo.html"></a><button type="submit" class="text-black">Log In</button></a>
+                    </div>
+
+                </form>
+
+            </div>
+        
+
+         </div>
+         <!-- pied de page -->
+          <div class="bg-[#ECF4DD] rounded-br-2xl rounded-bl-2xl">
+                <footer class="px-4 py-8 flex justify-between items-center gap-2 overflow-hidden">
+        <div>
+            <p>© Poulls 2026</p>
+        </div>
+        <div>
+            <p class="max-sm:hidden">Tous droits réservés a Amos05-dev</p>
+        </div>
+        <div class="flex gap-4 text-xl">
+  <a href="#"><i class="fab fa-facebook"></i></a>
+  <a href="#"><i class="fab fa-instagram"></i></a>
+  <a href="#"><i class="fab fa-tiktok"></i></a>
+  <a href="#"><i class="fab fa-whatsapp"></i></a>
+</div>
+
+     </footer>
+          </div>
+
+    </div>
+    
+</body>
+</html>
